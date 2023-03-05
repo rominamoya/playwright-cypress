@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
-    "cypres": "",
-    "cypress": "  cypress run",
+    "playwright": "playwright test",
+    "cypress": "cypress run",
     "cypress:open": "cypress open",
     "generate": "playwright codegen"
   },
