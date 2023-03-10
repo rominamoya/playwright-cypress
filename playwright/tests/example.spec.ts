@@ -11,6 +11,7 @@ test.describe("example test", () => {
 
   test("get started link", async ({ page }) => {
     await page.getByRole("link", { name: "Get started" }).click();
+
     await expect(page).toHaveURL(/.*intro/);
   });
 });

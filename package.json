@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "playwright": "playwright test",
-    "playwright:report" : "playwright show-report",
+    "playwright:headed": "npx playwright test --headed",
+    "playwright:report": "playwright show-report",
+    "playwright:generate": "playwright codegen",
     "cypress": "cypress run",
-    "cypress:open": "cypress open",
-    "generate": "playwright codegen"
+    "cypress:open": "cypress open"
   },
   "author": "",
   "license": "ISC",
