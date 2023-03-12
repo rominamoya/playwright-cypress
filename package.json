@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "playwright": "playwright test",
+    "playwright:debug": "playwright test --debug",
     "playwright:headed": "npx playwright test --headed",
     "playwright:report": "playwright show-report",
     "playwright:generate": "playwright codegen",
